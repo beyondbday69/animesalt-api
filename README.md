@@ -6,6 +6,21 @@ Unofficial scraper API for animesalt.ac.
 
 ## Base URL
 Production: `https://animesalt-api-lovat.vercel.app`
+Local: `http://localhost:500`
+
+## Local Development
+
+### 1. Using Python
+```bash
+pip install -r requirements.txt
+python api/main.py
+```
+
+### 2. Using Docker
+```bash
+docker build -t animesalt-api .
+docker run -p 500:500 animesalt-api
+```
 
 ## Routes
 
