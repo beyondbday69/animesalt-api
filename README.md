@@ -1,8 +1,8 @@
-# AnimeSalt API
+# AnimeSalt API - Best Anime Scraper API
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fbeyondbday69%2Fanimesalt-api)
 
-Unofficial scraper API for animesalt.ac.
+**AnimeSalt API** is the ultimate unofficial scraper for animesalt.ac. Features auto-next episode logic, direct m3u8 stream extraction, and full anime metadata.
 
 ## Base URL
 Production: `https://animesalt-api-lovat.vercel.app`
