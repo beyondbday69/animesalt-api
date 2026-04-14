@@ -1,7 +1,7 @@
 import asyncio
 from curl_cffi.requests import AsyncSession
 from bs4 import BeautifulSoup
-from scraper import _extract_image
+from api.scraper import _extract_image
 
 async def fetch_season_html(session, post_id, season_num, referer):
     url = f"https://animesalt.ac/wp-admin/admin-ajax.php?action=action_select_season&season={season_num}&post={post_id}"

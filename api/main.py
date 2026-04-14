@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 import logging
 
-from scraper import scrape_home, scrape_search, scrape_details, scrape_episode
+from .scraper import scrape_home, scrape_search, scrape_details, scrape_episode
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
